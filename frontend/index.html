@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise IT Support Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Enterprise IT Support Portal</h1>
+        <p class="subtitle">Submit an IT support request</p>
+
+        <form id="ticketForm">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Issue Type</label>
+            <select required>
+                <option>Password Reset</option>
+                <option>Computer Issue</option>
+                <option>Network Problem</option>
+                <option>Software Installation</option>
+                <option>Security Concern</option>
+            </select>
+
+            <label>Issue Description</label>
+            <textarea rows="6" placeholder="Describe the issue..." required></textarea>
+
+            <button type="submit">Submit Ticket</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

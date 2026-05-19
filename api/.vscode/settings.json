@@ -1,0 +1,10 @@
+{
+  "liveServer.settings.ignoreFiles": [
+    "**/__azurite*",
+    "**/__blobstorage__/**",
+    "**/__queuestorage__/**",
+    "**/__tablestorage__/**",
+    "**/api/**",
+    "**/node_modules/**"
+  ]
+}
