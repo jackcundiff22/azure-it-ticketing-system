@@ -48,3 +48,11 @@ __pycache__/
 __blobstorage__
 __queuestorage__
 __azurite_db*__.json
+
+api/local.settings.json
+local.settings.json
+__azurite*
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+node_modules/
